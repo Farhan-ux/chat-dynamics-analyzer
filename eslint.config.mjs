@@ -30,8 +30,8 @@ const eslintConfig = [...nextCoreWebVitals, ...nextTypescript, {
     
     // General JavaScript rules
     "prefer-const": "off",
-    "no-unused-vars": "off",
-    "no-console": "off",
+    "no-unused-vars": "warn",
+    "no-console": "warn",
     "no-debugger": "off",
     "no-empty": "off",
     "no-irregular-whitespace": "off",
